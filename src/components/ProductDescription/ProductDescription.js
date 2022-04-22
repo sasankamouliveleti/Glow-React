@@ -23,8 +23,10 @@ function ProductDescription() {
     const paginate = (val) => {
         console.log("here I am");
         setCurrentPage(val);
+        postUseeffectops(prodInfo);
     }
     console.log(currentReviews);
+    const reviewsCards = (currentReviews ? <ProductReviews reviews={currentReviews} /> : '')
     return (
         <React.Fragment>
             <Navbar loginflag={true}/>
@@ -46,7 +48,7 @@ function ProductDescription() {
                     </h5>
                 </fieldset>
                 <br />
-                {currentReviews ? <ProductReviews reviews={currentReviews} /> : ''}
+                {reviewsCards}
                 <Pagination total={4} perPage={reviewsPerPage} paginate={paginate} />
             </div>
         </React.Fragment>

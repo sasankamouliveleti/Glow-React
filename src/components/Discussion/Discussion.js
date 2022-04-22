@@ -1,11 +1,11 @@
+
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 
-function Cart() {
+function Discussion() {
     return (<React.Fragment>
         <Navbar loginflag={true} />
     </React.Fragment>)
-
 }
 
-export default Cart;
+export default Discussion;

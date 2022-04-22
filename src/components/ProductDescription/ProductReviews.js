@@ -7,7 +7,7 @@ function ProductReviews(props) {
     useEffect(() => {
         setReviews(props.reviews);
     }, []);
-
+    console.log(props.reviews)
     return (
         <React.Fragment>
             <div className="row review-cards">

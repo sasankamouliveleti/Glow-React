@@ -24,12 +24,14 @@ function ProductFeed() {
     return (
         <React.Fragment>
             <Navbar loginflag={true} />
+            <br/>
             <div className="row">
                 <div class="col s2">
                     <br />
                     <FilterCard />
                 </div>
                 <div class="col s10">
+                    <br/><br/>
                     <div className="container">
                         {
                             products.map((obj, key) => {
