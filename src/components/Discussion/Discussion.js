@@ -7,7 +7,7 @@ function Discussion() {
     const [disList, setdisList] = useState([]);
 
     useEffect(() => {
-        axios.get("./data/discussions.json").then((res) => {
+        axios.get("/Glow-React/data/discussions.json").then((res) => {
             if (res.data) {
                 console.log(res.data);
                 setdisList(res.data);

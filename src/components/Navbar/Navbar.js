@@ -13,9 +13,9 @@ function Navbar(props) {
         </React.Fragment>);
     const leftNavbarMenus = props.loginflag ?
         (<React.Fragment>
-            <li><Link to="/tracker"><img src='./img/Tracker.png' width="60px" height="60px" /></Link></li>
-            <li><Link to="/discussion"><img src='./img/rss.png' width="60px" height="60px" /></Link></li>
-            <li><Link to="/product-feed"><img src='./img/shopping.png' width="60px" height="60px" /></Link></li>
+            <li><Link to="/tracker"><img src='/Glow-React/img/Tracker.png' width="60px" height="60px" /></Link></li>
+            <li><Link to="/discussion"><img src='/Glow-React/img/rss.png' width="60px" height="60px" /></Link></li>
+            <li><Link to="/product-feed"><img src='/Glow-React/img/shopping.png' width="60px" height="60px" /></Link></li>
         </React.Fragment>) : ''
 
     const navbarMenus = props.loginflag ?

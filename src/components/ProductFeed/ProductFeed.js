@@ -9,7 +9,7 @@ function ProductFeed() {
     const [products, setproducts] = useState([]);
     let navigate = useNavigate(); 
     useEffect(() => {
-        axios.get("./data/products.json").then((res) => {
+        axios.get("/Glow-React/data/products.json").then((res) => {
             if (res.data) {
                 console.log(res.data);
                 setproducts(res.data);

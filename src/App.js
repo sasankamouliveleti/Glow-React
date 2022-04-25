@@ -26,7 +26,7 @@ function App() {
           <Route path="/discussion" element={<Discussion />} />
           <Route path="/product-feed" element={<ProductFeed />} />
           <Route path="/product-description" element={<ProductDescription />} />
-          <Route path="/" element={<LandingPage />} />
+          <Route path="/Glow-React" element={<LandingPage />} />
         </Routes>
       </Router>
     </div>
