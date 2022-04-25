@@ -1,10 +1,10 @@
-.product-card {
+.discussion-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    height: 250px;
+    height: 350px;
 }
 
-.product-card:hover {
+.discussion-card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
