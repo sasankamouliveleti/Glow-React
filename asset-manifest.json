@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Glow-React/static/css/main.d0d96041.css",
-    "main.js": "/Glow-React/static/js/main.386a28ca.js",
+    "main.js": "/Glow-React/static/js/main.ba22ecff.js",
     "static/js/787.ebd9738c.chunk.js": "/Glow-React/static/js/787.ebd9738c.chunk.js",
     "index.html": "/Glow-React/index.html",
     "main.d0d96041.css.map": "/Glow-React/static/css/main.d0d96041.css.map",
-    "main.386a28ca.js.map": "/Glow-React/static/js/main.386a28ca.js.map",
+    "main.ba22ecff.js.map": "/Glow-React/static/js/main.ba22ecff.js.map",
     "787.ebd9738c.chunk.js.map": "/Glow-React/static/js/787.ebd9738c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0d96041.css",
-    "static/js/main.386a28ca.js"
+    "static/js/main.ba22ecff.js"
   ]
 }
