@@ -4,7 +4,7 @@
         "pname": "Facial Cream",
         "pcost": "$100",
         "pimage": "/Glow-React/img/Products/ponds.jpeg",
-        "prating": "4.2",
+        "prating": 3.2,
         "pratingnumber": "422",
         "verified": "true",
         "pdiscount": "25%",
@@ -36,10 +36,10 @@
         "pname": "Facial Cream",
         "pcost": "$100",
         "pimage": "/Glow-React/img/Products/ponds.jpeg",
-        "prating": "4.2",
+        "prating": 1.2,
         "pratingnumber": "422",
         "verified": "true",
-        "pdiscount": "25%",
+        "pdiscount": "",
         "category": [
             "oily",
             "cold"
@@ -56,7 +56,7 @@
         "pname": "Facial Cream",
         "pcost": "$100",
         "pimage": "/Glow-React/img/Products/ponds.jpeg",
-        "prating": "4.2",
+        "prating": 4.2,
         "pratingnumber": "422",
         "verified": "true",
         "pdiscount": "25%",
@@ -76,9 +76,29 @@
         "pname": "Facial Cream",
         "pcost": "$100",
         "pimage": "/Glow-React/img/Products/ponds.jpeg",
-        "prating": "4.2",
+        "prating": 4.2,
         "pratingnumber": "422",
         "verified": "true",
+        "pdiscount": "25%",
+        "category": [
+            "oily",
+            "cold"
+        ],
+        "reviews": [
+            {
+                "reviewrating": 3,
+                "review": " Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            }
+        ]
+    },
+    {
+        "pid": 5,
+        "pname": "Facial Cream",
+        "pcost": "$100",
+        "pimage": "/Glow-React/img/Products/ponds.jpeg",
+        "prating": 4.2,
+        "pratingnumber": "422",
+        "verified": "false",
         "pdiscount": "25%",
         "category": [
             "oily",
