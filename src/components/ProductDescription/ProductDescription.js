@@ -29,7 +29,7 @@ function ProductDescription() {
     const reviewsCards = (currentReviews ? <ProductReviews reviews={currentReviews} /> : '')
     return (
         <React.Fragment>
-            <Navbar loginflag={true}/>
+            <Navbar loginflag={true} />
             <br />
             <div className="container">
                 {

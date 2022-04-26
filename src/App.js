@@ -13,6 +13,7 @@ import {
 } from "react-router-dom";
 import ProductFeed from "./components/ProductFeed/ProductFeed";
 import ProductDescription from "./components/ProductDescription/ProductDescription";
+import OfferProductFeed from "./components/OfferProductFeed/OfferProductFeed";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/discussion" element={<Discussion />} />
           <Route path="/product-feed" element={<ProductFeed />} />
           <Route path="/product-description" element={<ProductDescription />} />
+          <Route path="/offer-product-feed" element={<OfferProductFeed />} />
           <Route path="/Glow-React" element={<LandingPage />} />
         </Routes>
       </Router>
