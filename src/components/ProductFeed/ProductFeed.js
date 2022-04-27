@@ -41,6 +41,7 @@ function ProductFeed() {
                 <div onClick={() => { calltoProddes(key) }}>
                     <ProductCard id={obj.pid} pname={obj.pname} pimage={obj.pimage} pcost={obj.pcost} pdiscount={obj.pdiscount}
                         prating={obj.prating} pratingnumber={obj.pratingnumber} verified={obj.verified} category={obj.category} key={key} />
+                        <br/>
                 </div>
             );
         })
@@ -50,6 +51,7 @@ function ProductFeed() {
                 <div onClick={() => { calltoProddes(key) }}>
                     <ProductCard id={obj.pid} pname={obj.pname} pimage={obj.pimage} pcost={obj.pcost} pdiscount={obj.pdiscount}
                         prating={obj.prating} pratingnumber={obj.pratingnumber} verified={obj.verified} category={obj.category} key={key} />
+                        <br/>
                 </div>
             );
         })

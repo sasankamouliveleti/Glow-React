@@ -26,6 +26,10 @@ function ProductDescription() {
         postUseeffectops(prodInfo);
     }
     console.log(currentReviews);
+
+    const addedToCart = (id)=>{
+        console.log("added to cart");
+    }
     const reviewsCards = (currentReviews ? <ProductReviews reviews={currentReviews} /> : '')
     return (
         <React.Fragment>
@@ -34,7 +38,7 @@ function ProductDescription() {
             <div className="container">
                 {
                     prodInfo ? <ProductCard id={prodInfo.pid} pname={prodInfo.pname} pimage={prodInfo.pimage} pcost={prodInfo.pcost} pdiscount={prodInfo.pdiscount}
-                        prating={prodInfo.prating} pratingnumber={prodInfo.pratingnumber} verified={prodInfo.verified} category={prodInfo.category} /> : ''
+                        prating={prodInfo.prating} pratingnumber={prodInfo.pratingnumber} verified={prodInfo.verified} category={prodInfo.category} addToCart={addedToCart}/> : ''
                 }
                 <fieldset>
                     <legend className="legend"><b>Overall Rating & Review Summary</b></legend>

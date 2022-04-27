@@ -8,6 +8,20 @@
             "#OilySkin",
             "#SkinCare",
             "#Tricks"
+        ],
+        "comments": [
+            {
+                "comment": " Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            {
+                "comment": " Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            {
+                "comment": " Lorem ipsum dolor sit amet, consectetur adipiscing elitfsafasfsa."
+            },
+            {
+                "comment": " Lorem ipsum dolor sit amet, consectetur adipiscing elitfsafasfsa."
+            }
         ]
     },
     {
@@ -19,6 +33,11 @@
             "#OilySkin",
             "#SkinCare",
             "#Tricks"
+        ],
+        "comments": [
+            {
+                "comment": " Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            }
         ]
     },
     {
@@ -30,6 +49,11 @@
             "#OilySkin",
             "#SkinCare",
             "#Tricks"
+        ],
+        "comments": [
+            {
+                "comment": " Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            }
         ]
     }
 ]

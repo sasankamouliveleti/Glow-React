@@ -17,8 +17,8 @@ function DiscussionCard(props) {
                 <div className="col s8">
                     {props.tags.map((obj, key) => {
                         return (
-                            <div className="col 4" key={key}>
-                                {obj}
+                            <div className="col 4 tags-font" key={key}>
+                                <b>{obj}</b>
                             </div>
                         )
                     })}
