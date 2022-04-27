@@ -1,9 +1,21 @@
 import './Navbar.css';
 import logo from '../../assests/img/logo.png';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
+import Badge from "@material-ui/core/Badge";
+
 
 function Navbar(props) {
+    const [cartCount, setCartCount] = useState(0);
+    const [profileBool, setProfileBool] = useState(false);
+
+    useEffect(() => {
+        if (window.location.href.includes('profile') > 0) {
+            setProfileBool(true);
+        } else {
+            setProfileBool(false);
+        }
+    }, []);
     const logoRoute = props.loginflag ?
         (<React.Fragment>
             <Link to="/home" className="brand-logo"><img src={logo} alt="Glow!" height="80px" /></Link>
@@ -20,9 +32,33 @@ function Navbar(props) {
 
     const navbarMenus = props.loginflag ?
         (<React.Fragment>
-            <li><a href="#">Cart</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li className='listIcons'>
+                <Link to='/cart'>
+                    <Badge color="primary" badgeContent={props.cart}>
+                        <img src='/Glow-React/img/cart.png' width="40px" height="40px" />
+                    </Badge>
+                </Link>
+            </li>
+            <li className='listIcons'>
+                <Link to='/notification'>
+                    <Badge>
+                        <img src='/Glow-React/img/notification.png' width="40px" height="40px" />
+                    </Badge>
+                </Link>
+            </li>
+            <li className='listIcons'>
+                <Link to='/profile'>
+                    <Badge>
+                        <img src='/Glow-React/img/profile.png' width="50px" height="50px" />
+                    </Badge>
+                </Link>
+            </li>
+            {profileBool ? (
+                <React.Fragment>
+                    <li>
+                        <Link to="/Glow-React">Logout</Link>
+                    </li>
+                </React.Fragment>) : ''}
         </React.Fragment>) :
         (<React.Fragment>
             <li><Link to="/login">Login</Link></li>

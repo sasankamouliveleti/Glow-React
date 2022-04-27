@@ -13,7 +13,6 @@ function ProductCard(props) {
             setPageBool(false);
         }
     }, []);
-
     return (
         <div class="product-card">
             <div class="row">
@@ -44,7 +43,7 @@ function ProductCard(props) {
                             return (<div className='col s3 boxed' key={key}>{obj}</div>)
                         })}
                     </div>
-                    {pageBool ? <a class="waves-effect waves-light btn cart" onClick={() => { props.addToCart(props.pid) }}>Add to Cart</a> : ''}
+                    {pageBool ? <a class="waves-effect waves-light btn cart" onClick={() => { props.addToCart(props.id) }}>Add to Cart</a> : ''}
                 </div>
             </div>
         </div>

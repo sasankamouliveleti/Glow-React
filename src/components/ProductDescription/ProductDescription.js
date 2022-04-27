@@ -11,6 +11,7 @@ function ProductDescription() {
     const [currentPage, setCurrentPage] = useState(1);
     const [reviewsPerPage, setReviewsPerPage] = useState(3);
     const [currentReviews, setCurrentReviews] = useState();
+    const [cartCount, setCartCount] = useState(0);
     const postUseeffectops = (prodVals) => {
         const indexOfLastReview = currentPage * reviewsPerPage;
         const indexOfFirstReview = indexOfLastReview - reviewsPerPage;
@@ -27,18 +28,28 @@ function ProductDescription() {
     }
     console.log(currentReviews);
 
-    const addedToCart = (id)=>{
-        console.log("added to cart");
+    const addedToCart = (id) => {
+        console.log(id);
+        let count;
+        if (sessionStorage.getItem('cart')) {
+            let data = JSON.parse(sessionStorage.getItem('cart'));
+            count = data.length;
+            data.push(id);
+            sessionStorage.setItem('cart', JSON.stringify(data));            
+        } else {
+            sessionStorage.setItem('cart', JSON.stringify([id]));
+        }
+        setCartCount(count + 1);
     }
     const reviewsCards = (currentReviews ? <ProductReviews reviews={currentReviews} /> : '')
     return (
         <React.Fragment>
-            <Navbar loginflag={true} />
+            <Navbar loginflag={true} cart = {cartCount}/>
             <br />
             <div className="container">
                 {
                     prodInfo ? <ProductCard id={prodInfo.pid} pname={prodInfo.pname} pimage={prodInfo.pimage} pcost={prodInfo.pcost} pdiscount={prodInfo.pdiscount}
-                        prating={prodInfo.prating} pratingnumber={prodInfo.pratingnumber} verified={prodInfo.verified} category={prodInfo.category} addToCart={addedToCart}/> : ''
+                        prating={prodInfo.prating} pratingnumber={prodInfo.pratingnumber} verified={prodInfo.verified} category={prodInfo.category} addToCart={addedToCart} /> : ''
                 }
                 <fieldset>
                     <legend className="legend"><b>Overall Rating & Review Summary</b></legend>

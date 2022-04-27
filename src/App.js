@@ -15,6 +15,9 @@ import ProductFeed from "./components/ProductFeed/ProductFeed";
 import ProductDescription from "./components/ProductDescription/ProductDescription";
 import OfferProductFeed from "./components/OfferProductFeed/OfferProductFeed";
 import DiscussionDescription from "./components/DiscussionDescription/DisucssionDescription";
+import Cart from "./components/Cart/Cart";
+import Profile from "./components/Profile/Profile";
+import Notification from "./components/Notifications/Notifications";
 
 function App() {
   return (
@@ -26,6 +29,9 @@ function App() {
           <Route path="/home" element={<Homepage />} />
           <Route path="/tracker" element={<Tracker />} />
           <Route path="/discussion" element={<Discussion />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/notification" element={<Notification />} />
+          <Route path="/profile" element={<Profile />} />
           <Route path="/product-feed" element={<ProductFeed />} />
           <Route path="/product-description" element={<ProductDescription />} />
           <Route path="/offer-product-feed" element={<OfferProductFeed />} />
