@@ -24,6 +24,30 @@
             {
                 "reviewrating": 5,
                 "review": " Lorem ipsum dolor sit amet, consectetur adipiscing elitfsafasfsa."
+            }
+        ]
+    },
+    {
+        "pid": 2,
+        "pname": "Under Eye Patches",
+        "pcost": "$90",
+        "pimage": "/Glow-React/img/Products/UnderEyePatches.jpeg",
+        "prating": 1.2,
+        "pratingnumber": "422",
+        "verified": "true",
+        "pdiscount": "",
+        "category": [
+            "dry",
+            "cold"
+        ],
+        "reviews": [
+            {
+                "reviewrating": 3,
+                "review": " Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            {
+                "reviewrating": 2,
+                "review": " Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             },
             {
                 "reviewrating": 5,
@@ -32,82 +56,86 @@
         ]
     },
     {
-        "pid": 2,
-        "pname": "Facial Cream",
-        "pcost": "$100",
-        "pimage": "/Glow-React/img/Products/ponds.jpeg",
-        "prating": 1.2,
-        "pratingnumber": "422",
-        "verified": "true",
-        "pdiscount": "",
-        "category": [
-            "oily",
-            "cold"
-        ],
-        "reviews": [
-            {
-                "reviewrating": 3,
-                "review": " Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            }
-        ]
-    },
-    {
         "pid": 3,
-        "pname": "Facial Cream",
-        "pcost": "$100",
-        "pimage": "/Glow-React/img/Products/ponds.jpeg",
-        "prating": 4.2,
+        "pname": "Moisturizer Oil",
+        "pcost": "$150",
+        "pimage": "/Glow-React/img/Products/MoisturizerOil.jpeg",
+        "prating": 5.0,
         "pratingnumber": "422",
-        "verified": "",
-        "pdiscount": "25%",
+        "verified": "false",
+        "pdiscount": "55%",
         "category": [
             "oily",
-            "cold"
+            "sunny"
         ],
         "reviews": [
             {
                 "reviewrating": 3,
                 "review": " Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            {
+                "reviewrating": 2,
+                "review": " Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            {
+                "reviewrating": 5,
+                "review": " Lorem ipsum dolor sit amet, consectetur adipiscing elitfsafasfsa."
             }
         ]
     },
     {
         "pid": 4,
-        "pname": "Facial Cream",
+        "pname": "Intellishade Clear",
         "pcost": "$100",
-        "pimage": "/Glow-React/img/Products/ponds.jpeg",
-        "prating": 4.2,
+        "pimage": "/Glow-React/img/Products/IntellishadeClear.jpeg",
+        "prating": 3.2,
         "pratingnumber": "422",
-        "verified": "true",
-        "pdiscount": "25%",
+        "verified": "false",
+        "pdiscount": "",
         "category": [
             "oily",
-            "cold"
+            "humid"
         ],
         "reviews": [
             {
                 "reviewrating": 3,
                 "review": " Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            {
+                "reviewrating": 2,
+                "review": " Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            {
+                "reviewrating": 5,
+                "review": " Lorem ipsum dolor sit amet, consectetur adipiscing elitfsafasfsa."
             }
         ]
     },
     {
         "pid": 5,
-        "pname": "Facial Cream",
-        "pcost": "$100",
-        "pimage": "/Glow-React/img/Products/ponds.jpeg",
+        "pname": "Cica Acne Pimple Patch",
+        "pcost": "$10",
+        "pimage": "/Glow-React/img/Products/CicaAcnePimplePatch.jpeg",
         "prating": 4.2,
         "pratingnumber": "422",
         "verified": "false",
-        "pdiscount": "25%",
+        "pdiscount": "",
         "category": [
-            "oily",
+            "dry",
             "cold"
         ],
         "reviews": [
             {
                 "reviewrating": 3,
                 "review": " Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            {
+                "reviewrating": 2,
+                "review": " Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            {
+                "reviewrating": 5,
+                "review": " Lorem ipsum dolor sit amet, consectetur adipiscing elitfsafasfsa."
             }
         ]
     }

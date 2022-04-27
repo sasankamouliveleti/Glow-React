@@ -18,6 +18,24 @@
             },
             {
                 "comment": " Lorem ipsum dolor sit amet, consectetur adipiscing elitfsafasfsa."
+            }
+        ]
+    },
+    {
+        "discussionID": 2,
+        "title": "Dry skin problems",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.",
+        "img": "/Glow-React/img/Discussions/dryskin.png",
+        "tags": [
+            "#DrySkin",
+            "#SkinCare"
+        ],
+        "comments": [
+            {
+                "comment": " Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            {
+                "comment": " Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             },
             {
                 "comment": " Lorem ipsum dolor sit amet, consectetur adipiscing elitfsafasfsa."
@@ -25,34 +43,23 @@
         ]
     },
     {
-        "discussionID": 2,
-        "title": "Oily skin problems",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.",
-        "img": "/Glow-React/img/Discussions/oily.jpg",
-        "tags": [
-            "#OilySkin",
-            "#SkinCare",
-            "#Tricks"
-        ],
-        "comments": [
-            {
-                "comment": " Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            }
-        ]
-    },
-    {
         "discussionID": 3,
-        "title": "Oily skin problems",
+        "title": "Beach day skincare",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.",
-        "img": "/Glow-React/img/Discussions/oily.jpg",
+        "img": "/Glow-React/img/Discussions/beach.png",
         "tags": [
-            "#OilySkin",
-            "#SkinCare",
+            "#BeachDay",
             "#Tricks"
         ],
         "comments": [
             {
                 "comment": " Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            {
+                "comment": " Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            {
+                "comment": " Lorem ipsum dolor sit amet, consectetur adipiscing elitfsafasfsa."
             }
         ]
     }
