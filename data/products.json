@@ -2,7 +2,7 @@
     {
         "pid": 1,
         "pname": "Facial Cream",
-        "pcost": "$100",
+        "pcost": 100,
         "pimage": "/Glow-React/img/Products/ponds.jpeg",
         "prating": 3.2,
         "pratingnumber": "422",
@@ -30,7 +30,7 @@
     {
         "pid": 2,
         "pname": "Under Eye Patches",
-        "pcost": "$90",
+        "pcost": 90,
         "pimage": "/Glow-React/img/Products/UnderEyePatches.jpg",
         "prating": 1.2,
         "pratingnumber": "422",
@@ -58,7 +58,7 @@
     {
         "pid": 3,
         "pname": "Moisturizer Oil",
-        "pcost": "$150",
+        "pcost": 150,
         "pimage": "/Glow-React/img/Products/MoisturizerOil.jpg",
         "prating": 5.0,
         "pratingnumber": "422",
@@ -86,7 +86,7 @@
     {
         "pid": 4,
         "pname": "Intellishade Clear",
-        "pcost": "$100",
+        "pcost": 100,
         "pimage": "/Glow-React/img/Products/IntellishadeClear.jpg",
         "prating": 3.2,
         "pratingnumber": "422",
@@ -114,7 +114,7 @@
     {
         "pid": 5,
         "pname": "Cica Acne Pimple Patch",
-        "pcost": "$10",
+        "pcost": 10,
         "pimage": "/Glow-React/img/Products/CicaAcneimplePatch.jpg",
         "prating": 4.2,
         "pratingnumber": "422",
