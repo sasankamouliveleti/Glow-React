@@ -8,6 +8,6 @@ In order to run the the project please have node installed on your system. Then 
 
 The following are the contributions(the components built) made by the group members
 
-Sasanka Mouli Subrahmanya Sri Veleti - Homepage, Product Feed, Product Description
-Venkatesh Gopalakrishnan - Discussion Forum, Discussion Description
-Yash Pharande  - Tracker, Cart
+1. Sasanka Mouli Subrahmanya Sri Veleti - Homepage, Product Feed, Product Description
+2. Venkatesh Gopalakrishnan - Discussion Forum, Discussion Description
+3. Yash Pharande  - Tracker, Cart
