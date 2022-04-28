@@ -22,7 +22,7 @@ function ProductCard(props) {
                 </div>
                 <div class="col s6">
                     <h4>{props.pname}</h4>
-                    <h6>{props.pcost}</h6>
+                    <h6>${props.pcost}</h6>
                     <br /><br /><br />
                     <span><ReactStars
                         value={props.prating}
@@ -33,7 +33,19 @@ function ProductCard(props) {
                 <div class="col s3">
                     {props.verified ? <h5>Verified <span>&#9989;</span></h5> : ''}
                     <br />
-                    <h6>Track </h6>
+                    <div className='row'>
+                        <div className='col s2'>
+                            <h6>Track </h6>
+                        </div>
+                        <div className='col s2'>
+                            <div class="switch">
+                                <label>
+                                    <input type="checkbox" />
+                                    <span class="lever"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
                     <br /><br /><br />
                     <div className='row'>
                         <div className='col s4 discount'>

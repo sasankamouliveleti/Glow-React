@@ -35,7 +35,7 @@ function FilterCard(props) {
                 <br />
                 <br />
                 <h5>Sort By</h5>
-                <a class="waves-effect waves-light btn-small">Price</a>
+                <a class="waves-effect waves-light btn-small" onClick={()=>{props.sortProducts()}}>Price</a>
                 <br />
                 <br />
                 <a class="waves-effect waves-light btn-small">Rating</a>

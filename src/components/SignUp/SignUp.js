@@ -1,8 +1,13 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import { useNavigate } from "react-router-dom";
 
 function SignUp(){
+    let navigate = useNavigate();
+    const login = () =>{
+        navigate("/home", { replace: true });
+    }
     return (
         <React.Fragment>
             <Navbar loginflag = {false}/>
@@ -38,7 +43,7 @@ function SignUp(){
                         <label for="confirmPwd">Confirm Password</label>
                     </div>
                 </div>
-                <div class="row enter_home">
+                <div class="row enter_home " onClick={login}>
                     <div class="input-field col s6">
                         <button class="btn btn-large btn-register waves-effect waves-light regis" type="submit"
                             name="action" onclick="register()">Register

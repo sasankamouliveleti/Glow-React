@@ -35,13 +35,23 @@ function ProductFeed() {
     const filterVerifyMain = (flag) => {
         setFilterVerify(!filterVerify);
     };
-    const list = filterVerify ? (<React.Fragment>{
+    const sorttheProducts = () => {
+        console.log("fsafsd");
+        let newproducts = [...products];
+        newproducts.sort(function (a, b) {
+            return b.pcost - a.pcost;
+        });
+        console.log(newproducts);
+        setproducts(newproducts);
+    };
+
+    let list = filterVerify ? (<React.Fragment>{
         products.filter(objVal => objVal.verified == "true").map((obj, key) => {
             return (
                 <div onClick={() => { calltoProddes(key) }}>
                     <ProductCard id={obj.pid} pname={obj.pname} pimage={obj.pimage} pcost={obj.pcost} pdiscount={obj.pdiscount}
                         prating={obj.prating} pratingnumber={obj.pratingnumber} verified={obj.verified} category={obj.category} key={key} />
-                        <br/>
+                    <br />
                 </div>
             );
         })
@@ -51,7 +61,7 @@ function ProductFeed() {
                 <div onClick={() => { calltoProddes(key) }}>
                     <ProductCard id={obj.pid} pname={obj.pname} pimage={obj.pimage} pcost={obj.pcost} pdiscount={obj.pdiscount}
                         prating={obj.prating} pratingnumber={obj.pratingnumber} verified={obj.verified} category={obj.category} key={key} />
-                        <br/>
+                    <br />
                 </div>
             );
         })
@@ -59,11 +69,11 @@ function ProductFeed() {
     return (
         <React.Fragment>
             <Navbar loginflag={true} />
-            <br />
+            <br /><br />
             <div className="row">
                 <div class="col s2">
                     <br />
-                    <FilterCard filterRated={filterRatedMain} filterVerify={filterVerifyMain} />
+                    <FilterCard filterRated={filterRatedMain} filterVerify={filterVerifyMain} sortProducts={sorttheProducts} />
                 </div>
                 <div class="col s10">
                     <br /><br />

@@ -8,12 +8,18 @@ import Badge from "@material-ui/core/Badge";
 function Navbar(props) {
     const [cartCount, setCartCount] = useState(0);
     const [profileBool, setProfileBool] = useState(false);
+    const [isProductsPage, setProductsPage] = useState(false);
 
     useEffect(() => {
         if (window.location.href.includes('profile') > 0) {
             setProfileBool(true);
         } else {
             setProfileBool(false);
+        }
+        if (window.location.href.includes('product-feed') > 0) {
+            setProductsPage(true);
+        } else {
+            setProductsPage(false);
         }
     }, []);
     const logoRoute = props.loginflag ?
@@ -74,6 +80,20 @@ function Navbar(props) {
                     <li>fsdfsdafsfsfsfsd</li>
                     {leftNavbarMenus}
                 </ul>
+                {/* {isProductsPage ?
+                    <ul>
+                        <li>
+                            <div class="center row">
+                                <div class="col s12 " >
+                                    <div class="row" id="topbarsearch">
+                                        <div class="input-field col s6 s12 red-text">
+                                            <i class="red-text material-icons prefix">search</i>
+                                            <input type="text" placeholder="search" id="autocomplete-input" class="autocomplete red-text" onChange={(event) => { props.searchCalling(event.target.value) }} />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li> </ul> : ''} */}
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
                     {navbarMenus}
                 </ul>

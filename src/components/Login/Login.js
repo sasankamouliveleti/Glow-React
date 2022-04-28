@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import { useNavigate } from "react-router-dom";
-
+import './Login.css';
 
 function Login() {
     let navigate = useNavigate();
@@ -33,7 +33,7 @@ function Login() {
                                 <label for="password">Password</label>
                             </div>
                         </div>
-                        <div class="row loginBtn" onClick={login}>
+                        <div class="row loginBtn " onClick={login}>
                             <button className="btn btn-large btn-register waves-effect waves-light regis col s4" type="submit" name="action" >Login
                             </button>
                         </div>

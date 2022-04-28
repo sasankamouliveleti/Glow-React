@@ -56,7 +56,7 @@ function Tracker() {
                         Notes:
                         <input type="text" name="notes" value={currNotes} onChange={setNotesValue} />
                     </label>
-                    <a class="waves-effect waves-light btn-small" onClick={storeTheData}>fsafsdf</a>
+                    <a class="waves-effect waves-light btn-small" onClick={storeTheData}>Submit</a>
                 </div>
             </div>
         </div>
