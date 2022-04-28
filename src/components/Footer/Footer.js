@@ -6,7 +6,7 @@ function Footer() {
         <footer class="page-footer orange">
             <div class="">
                 <div class="container">
-                    Copyright<Link to="/home"><a class="orange-text text-lighten-3">Glow!</a></Link>
+                    Copyright<Link to="/Glow-React"><a class="orange-text text-lighten-3">Glow!</a></Link>
                 </div>
             </div>
         </footer>

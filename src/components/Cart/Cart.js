@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import Navbar from "../Navbar/Navbar";
 import ProductCard from "../ProductFeed/ProductCard";
 import axios from "axios";
+import { Link } from "react-router-dom";
+import './Cart.css';
 
 function Cart() {
     const [currCart, setcurrCart] = useState([]);
@@ -36,7 +38,10 @@ function Cart() {
                         )
                     })
                     
-                }</React.Fragment>:
+                }
+                <br/>
+                <div className="orderButton"><Link to='/order-placed'><a class="waves-effect waves-light btn cart">Place Order</a></Link></div>
+                </React.Fragment>:
                 <div className="center">
                     <h3>Cart is Empty</h3>
                     </div>}

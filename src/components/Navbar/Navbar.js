@@ -24,10 +24,10 @@ function Navbar(props) {
     }, []);
     const logoRoute = props.loginflag ?
         (<React.Fragment>
-            <Link to="/home" className="brand-logo"><img src={logo} alt="Glow!" height="80px" /></Link>
+            <Link to="/Glow-React" className="brand-logo"><img src={logo} alt="Glow!" height="80px" /></Link>
         </React.Fragment>) :
         (<React.Fragment>
-            <Link to="/" className="brand-logo"><img src={logo} alt="Glow!" height="80px" /></Link>
+            <Link to="/Glow-React" className="brand-logo"><img src={logo} alt="Glow!" height="80px" /></Link>
         </React.Fragment>);
     const leftNavbarMenus = props.loginflag ?
         (<React.Fragment>

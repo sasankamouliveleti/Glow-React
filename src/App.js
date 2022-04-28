@@ -18,6 +18,7 @@ import DiscussionDescription from "./components/DiscussionDescription/Disucssion
 import Cart from "./components/Cart/Cart";
 import Profile from "./components/Profile/Profile";
 import Notification from "./components/Notifications/Notifications";
+import OrderPlaced from "./components/OrderPlaced/OrderPlaced";
 
 function App() {
   return (
@@ -26,17 +27,18 @@ function App() {
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
-          <Route path="/home" element={<Homepage />} />
+          <Route path="/Glow-React" element={<Homepage />} />
           <Route path="/tracker" element={<Tracker />} />
           <Route path="/discussion" element={<Discussion />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/notification" element={<Notification />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/product-feed" element={<ProductFeed />} />
+          <Route path="/order-placed" element={<OrderPlaced />} />
           <Route path="/product-description" element={<ProductDescription />} />
           <Route path="/offer-product-feed" element={<OfferProductFeed />} />
           <Route path="/discussion-description" element={<DiscussionDescription />} />
-          <Route path="/Glow-React" element={<LandingPage />} />
+          <Route path="/" element={<LandingPage />} />
         </Routes>
       </Router>
     </div>
