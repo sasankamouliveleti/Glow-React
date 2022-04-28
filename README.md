@@ -11,3 +11,5 @@ The following are the contributions(the components built) made by the group memb
 1. Sasanka Mouli Subrahmanya Sri Veleti - Homepage, Product Feed, Product Description
 2. Venkatesh Gopalakrishnan - Discussion Forum, Discussion Description
 3. Yash Pharande  - Tracker, Cart
+
+The project is deployed at https://sasankamouliveleti.github.io/Glow-React
