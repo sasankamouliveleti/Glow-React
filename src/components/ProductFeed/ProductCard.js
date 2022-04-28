@@ -4,6 +4,7 @@ import './ProductCard.css';
 
 function ProductCard(props) {
     const [pageBool, setPageBool] = useState(false);
+    const [feedBool, setfeedBool] = useState(false)
 
     useEffect(() => {
         if (window.location.href.indexOf('product-description') > 0) {
@@ -11,6 +12,12 @@ function ProductCard(props) {
         }
         else {
             setPageBool(false);
+        }
+        if (window.location.href.indexOf('product-feed') > 0) {
+            setfeedBool(false);
+        }
+        else {
+            setfeedBool(true);
         }
     }, []);
     return (
@@ -33,19 +40,20 @@ function ProductCard(props) {
                 <div class="col s3">
                     {props.verified ? <h5>Verified <span>&#9989;</span></h5> : ''}
                     <br />
-                    <div className='row'>
-                        <div className='col s2'>
-                            <h6>Track </h6>
-                        </div>
-                        <div className='col s2'>
-                            <div class="switch">
-                                <label>
-                                    <input type="checkbox" />
-                                    <span class="lever"></span>
-                                </label>
+                    {feedBool ?
+                        <div className='row'>
+                            <div className='col s2'>
+                                <h6>Track </h6>
                             </div>
-                        </div>
-                    </div>
+                            <div className='col s2'>
+                                <div class="switch">
+                                    <label>
+                                        <input type="checkbox" />
+                                        <span class="lever"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div> : ''}
                     <br /><br /><br />
                     <div className='row'>
                         <div className='col s4 discount'>

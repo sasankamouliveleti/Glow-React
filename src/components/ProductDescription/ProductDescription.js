@@ -64,7 +64,7 @@ function ProductDescription() {
                 </fieldset>
                 <br />
                 {reviewsCards}
-                <Pagination total={4} perPage={reviewsPerPage} paginate={paginate} />
+                {/* <Pagination total={4} perPage={reviewsPerPage} paginate={paginate} /> */}
             </div>
         </React.Fragment>
     )
