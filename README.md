@@ -13,3 +13,5 @@ The following are the contributions(the components built) made by the group memb
 3. Yash Pharande  - Tracker, Cart
 
 The project is deployed at https://sasankamouliveleti.github.io/Glow-React
+
+For interacting with UI please refer the demo script named Group 11 Demo Script.pdf
